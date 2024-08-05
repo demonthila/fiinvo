@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inder&family=Manrope:wght@200..800&display=swap');
+:root {
+    --primary-color: #0D659D;
+    --secondary-color:#F7CB2D;
+    --main-font:Inder;
+    --second-font:Manrope;
+
+    }
+#h2{
+    font-size: 34px;
+    font-weight: 600;
+    font-family: var(--second-font);
+
+}
+#discription{
+    font-size: 14px;
+    line-height: normal;
+}
+.logo_nav{
+    height: 40px;
+    width: 140px;
+}
+body,html{
+    font-family: var(--main-font);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    
+}
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+  }
+
+.button1{
+    width: 186px;
+    height: 45px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.button1:hover{
+    background-color: var(--primary-color);
+}
+
+#fallow{
+    font-size: 14px;
+    font-weight: 200px;
+    font-family: var(--main-font);
+}
+
+.overlap-images {
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    border: 2px solid; 
+    border-color: rgba(0, 0, 0, 0.171);
+    border-radius: 10px;
+    justify-content: center;
+    justify-items: center;
+    filter:opacity(20)
+    
+    
+  }
+  .overlap-images img {
+    border-radius: 50%;
+    border: 1px solid white;
+    position: relative;
+    margin-left: -10px; /* Adjust this value as needed */
+   
+  }
+  .trust-text {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.399);
+    margin-left: 10px; /* Adjust this value as needed */
+  }
+  .border1{
+    align-items: center;
+
+  }
+.heroh1{
+    font-size: 54px;
+    line-height: 70px;
+    
+}
+
+.button2{
+    width: 120px;
+    height: 45px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    color: aliceblue;
+    
+}
+.button2:hover{
+    background-color: var(--secondary-color);
+}
+.c1{
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    text-align: center; /* Center text */
+}
+
+.bg1{
+    background-color: #F9F9F9;
+    
+}
+
+
+
