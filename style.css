@@ -112,6 +112,18 @@ body,html{
     background-color: #F9F9F9;
     
 }
+.sat{
+    color: #0D659D;
+    font-size: 18px;
+}
+#discription{
+    font-weight: 200 !important;
+    
+}
+.card2{
+    background-color: #ffffff;
+    border-radius: 14%;
+}
 
 
 
